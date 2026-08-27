@@ -1,0 +1,16 @@
+.cabecalho {
+    padding: 5px;
+    height: auto;
+    align-items: left;
+    background-color: rgb(237, 237, 237);
+    border-radius: 2px;
+    border-color: black;
+    border-bottom: 2px solid rgb(39, 36, 36);
+    border-width: 2px;
+    width: auto;
+  
+}
+
+.letra {
+    color: rgb(21, 0, 247);
+}
