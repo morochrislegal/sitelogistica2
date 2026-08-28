@@ -8,33 +8,82 @@
 </head>
 <body>
     <header class="cabecalho">
-        <img src="logofoda.png" width="50" height="50" alt="Logo">
-        <h1>
-            <div class="letra">Tech</div>Alerta
+        <div class="logo2">
+            <img src="logofoda.png" width="50" height="50" alt="Logo">
+            <h1>
+                <div class="logo">
+                    <div class="letra">Tech</div>
+                    Alerta
+                </div>
+            </h1>
+        </div>
         </h1>
-        
+        <div class="perfil">
+            <img src="logofoda.png" width="50" height="50">
+            <p>Caio Santos Amaral</p>
+        </div>
     </header>
-      <div class="botoes">
-            <button class="botao"><a href="painel.html">Painel</button>a></a></button>
-            <button class="botao"><a href="alerta.html">Alertas</button>a></a></button>
-            <button class="botao"><a href="estoque.html">Estoque</button>a></a></button>
-            <button class="botao"><a href="producao.html">Produção</button>a></a></button>
-            <button class="botao"><a href="relatorios.html">Relatórios</button>a></a></button>
-            <button class="botao"><a href="config.html">Configuração</button>a></a></button>
-    </div> 
         <div class="a1">
-            <nav>
-                <ul>
-                    <li>Painel</li>
-                    <li>Alerta</li>
-                    <li>Estoque</li>
-                    <li>Produção</li>
-                    <li>Relatórios</li>
-                    <li>Configurações</li>
+            <nav class="esquerda">
+                <ul class="lista">
+                    <li><button class="botao"><a href="painel.html">Painel</a></button></li>
+                    <li><button class="botao"><a href="alerta.html">Alertas</a></button></li>
+                    <li><button class="botao"><a href="estoque.html">Estoque</a></button></li>
+                    <li><button class="botao"><a href="producao.html">Produção</a></button></li>
+                    <li><button class="botao"><a href="relatorios.html">Relatórios</a></button></li>
+                    <li><button class="botao"><a href="config.html">Configuração</a></button></li>
                 </ul>
             </nav>
-            <section>
+            <section class="main">
+                <p><strong>Painel</strong></p>
+                <div class="caixas">
+                    <div class="c1"><p>Alertas críticos</p><p>21</p></div>
+                    <div class="c2"><p>Materiais críticos</p><p>4</p></div>
+                    <div class="c3"><p>Pedidos pendentes</p><p>15</p></div>
+                </div>
+                <p><strong>Alertas em tempo real</strong></p>
+                <table>
+                    <tr class="listaheader">
+                        <th>ID</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Local</th>
+                        <th>Gravidade</th>
+                        <th>Data/Hora</th>
+                        <th>Ação</th>
+                    </tr>
+                    <tr>
+                        <td>9871</td>
+                        <td>Falta de material</td>
+                        <td>Aço gay</td>
+                        <td>Armazém Central</td>
+                        <td>Urgente</td>
+                        <td>12:51</td>
+                        <td>Visualizar</td>
+                    </tr>
+                    <tr>
+                        <td>9871</td>
+                        <td>Falta de material</td>
+                        <td>Aço gay</td>
+                        <td>Armazém Central</td>
+                        <td>Urgente</td>
+                        <td>12:51</td>
+                        <td>Visualizar</td>
+                    </tr>
+                </table>
             </section>
+            <nav class="direita">
+                <textarea name="" id="" placeholder="Buscar"></textarea>
+                <p>Status do Estoque</p>
+                <div class="pc">
+                    <div class="pie-chart"></div>
+                    <div class="legenda">
+                        <p>Crítico</p>
+                        <p>Normal</p>
+                        <p>Excesso</p>
+                    </div>
+                </div>
+            </nav>
         </div>
 </body>
 </html>
