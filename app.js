@@ -29,4 +29,4 @@ function preencherTabela(dados) {
         linha.innerHTML = `
             <td>${alerta.id}</td>
             <td>${alerta.tipo}</td>
-            <td>${alerta.descricao}
+            <td>${alerta.descricao}</td>
