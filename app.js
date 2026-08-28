@@ -20,7 +20,7 @@ function preencherTabela(dados) {
         const linha = document.createElement('tr');
     })
 
-        // Define a classe de cor baseada na gravidade
+        
         let classeGravidade = alerta.gravidade.toLowerCase(); // 'urgente', 'moderado'
 
         linha.innerHTML = `

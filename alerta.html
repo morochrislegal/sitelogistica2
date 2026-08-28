@@ -1,38 +1,49 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alertas</title>
+    <title>AlertaEmpresa - Dashboard</title>
     <link rel="stylesheet" href="style2.css">
+    <!-- Link para ícones (ex: FontAwesome) -->
     <script src="https://kit.fontawesome.com/your-key.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="dashboard-container">
+        <!-- BARRA LATERAL (SIDEBAR) -->
         <nav class="sidebar">
-            
+            <div class="logo">
+                <img src="logo.png" alt="AlertaEmpresa">
+            </div>
             <ul>
                 <li><a href="#" class="active"><i class="fas fa-chart-line"></i> Painel</a></li>
                 <li><a href="#"><i class="fas fa-bell"></i> Alertas <span class="badge">21</span></a></li>
                 <li><a href="#"><i class="fas fa-box"></i> Estoque</a></li>
-               
+                <!-- ... outros itens ... -->
             </ul>
         </nav>
 
-        
+        <!-- CONTEÚDO PRINCIPAL (MAIN) -->
         <main class="main-content">
+            <!-- Cabeçalho Principal -->
             <header class="main-header">
                 <h1>Painel</h1>
+                <div class="user-profile">
+                    <!-- Detalhes do usuário Lucas Silva -->
+                </div>
             </header>
 
+            <!-- Cartões de Estatísticas (Cards) -->
             <section class="stats-cards">
                 <div class="card critical">
                     <h3>TOTAL ALERTAS ATIVOS</h3>
                     <p class="value">21</p>
                     <p class="sub-value">(4 urgent)</p>
                 </div>
+                <!-- ... outros cards ... -->
             </section>
 
+            <!-- Tabela de Alertas em Tempo Real -->
             <section class="alerts-table-section">
                 <h2>ALERTAS EM TEMPO REAL</h2>
                 <table class="alerts-table">
@@ -46,11 +57,13 @@
                         </tr>
                     </thead>
                     <tbody id="alerts-body">
+                        <!-- Os dados virão do JavaScript aqui -->
                     </tbody>
                 </table>
             </section>
         </main>
     </div>
+    <!-- Script para carregar os dados dinamicamente -->
     <script src="app.js"></script>
 </body>
 </html>
