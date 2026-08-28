@@ -10,8 +10,8 @@ header {
     border-color: rgb(153, 153, 153);
     border-style: solid;
     font-size: 25px;
-    align-items: left;
     display: flex;
+    align-items: center;
     gap: 1px;
 }
 
@@ -104,4 +104,32 @@ header {
     .dor-item:last-child {
         border-bottom: none;
     }
+}
+
+.btn-index2 {
+    background: #84c9f1;
+    color: white;
+    border: #0a1422;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    height: 32px;
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.btn-index2:hover {
+    background: #283455;
+}
+
+.h1techalerta   {
+    font-size: 30px;
+    margin: 0;
+    margin-left: auto;
+    white-space: nowrap;
 }
