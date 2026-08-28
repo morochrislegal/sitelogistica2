@@ -1,0 +1,106 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 10px;
+    height: 150px;
+    border-radius: 2px;
+    background-color: rgb(0, 38, 253);
+    color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-color: rgb(153, 153, 153);
+    border-style: solid;
+    font-size: 25px;
+    align-items: left;
+    display: flex;
+    gap: 1px;
+}
+
+.secao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #000000, #3f72ff);
+    height: auto;
+    padding: 10px;
+    color: white;
+}
+
+.letra2 {
+    color: rgb(195, 221, 255);
+    
+}
+.h1logis {
+    font-size: 50px;
+}
+
+.dores {
+    text-align: center;
+
+}
+
+.dor-section {
+    background: #0a1422;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    padding: 22px 28px;
+    color: white;
+    background: linear-gradient(to bottom, #000000, #83a1f3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dor-section h2 {
+    text-align: center;
+    color: #ff625d;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 18px;
+}
+
+.dor-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.dor-item {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 8px 24px;
+    min-height: 80px;
+    border-right: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.dor-item:last-child {
+    border-right: none;
+}
+
+.icon {
+    color: #ff554f;
+    font-size: 32px;
+}
+
+.dor-item h3 {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+.dor-item p {
+    margin: 0;
+    color: #b8c0ca;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+    .dor-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dor-item {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .dor-item:last-child {
+        border-bottom: none;
+    }
+}
