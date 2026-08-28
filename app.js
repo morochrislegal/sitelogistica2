@@ -17,11 +17,9 @@ async function carregarAlertas() {
 function preencherTabela(dados) {
     const tabelaBody = document.getElementById('alerts-body');
     tabelaBody.innerHTML = ''; // Limpa a tabela antes
-}
 
     dados.forEach(alerta => {
         const linha = document.createElement('tr');
-    })
 
         // Define a classe de cor baseada na gravidade
         let classeGravidade = alerta.gravidade.toLowerCase(); // 'urgente', 'moderado'
@@ -29,4 +27,4 @@ function preencherTabela(dados) {
         linha.innerHTML = `
             <td>${alerta.id}</td>
             <td>${alerta.tipo}</td>
-            <td>${alerta.descricao}</td>
+            <td>${alerta.descricao}
