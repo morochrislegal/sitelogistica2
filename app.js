@@ -13,10 +13,12 @@ async function carregarAlertas() {
 // 2. Função para inserir os dados na tabela HTML
 function preencherTabela(dados) {
     const tabelaBody = document.getElementById('alerts-body');
-    tabelaBody.innerHTML = ''; // Limpa a tabela antes
+    tabelaBody.innerHTML = '';
+}
 
     dados.forEach(alerta => {
         const linha = document.createElement('tr');
+    })
 
         // Define a classe de cor baseada na gravidade
         let classeGravidade = alerta.gravidade.toLowerCase(); // 'urgente', 'moderado'
