@@ -5,10 +5,10 @@
 .cabecalho {
     padding: 5px;
     height: auto;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(30, 68, 151);
     border-radius: 2px;
-    border-color: black;
-    border-bottom: 2px solid rgb(39, 36, 36);
+    border-color: rgb(30, 68, 151);;
+    border-bottom: 2px solid rgb(30, 68, 151);;
     border-width: 2px;
     width: auto;
 }
