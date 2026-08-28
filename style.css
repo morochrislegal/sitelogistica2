@@ -26,10 +26,12 @@ header {
 
 .letra2 {
     color: rgb(195, 221, 255);
-    
+    font-family: fantasy;
 }
+
 .h1logis {
     font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .dores {
