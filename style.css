@@ -1,135 +1,130 @@
-header {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding: 10px;
-    height: 150px;
-    border-radius: 2px;
-    background-color: rgb(0, 38, 253);
-    color: rgb(0, 0, 0);
-    border-width: 2px;
-    border-color: rgb(153, 153, 153);
-    border-style: solid;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    gap: 1px;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f3f5f8;
+  color: #111;
 }
 
-.secao {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    background: linear-gradient(to bottom, #000000, #3f72ff);
-    height: auto;
-    padding: 10px;
-    color: white;
+header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  background: #0026fd;
+  color: #fff;
+  border-bottom: 2px solid #666;
+}
+
+header img {
+  width: 120px;
+  height: auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
 }
 
 .letra2 {
-    color: rgb(195, 221, 255);
-    font-family: fantasy;
+  color: #dfe9ff;
 }
 
-.h1logis {
-    font-size: 50px;
-}
-
-.dores {
-    text-align: center;
-
-}
-
-.dor-section {
-    background: #0a1422;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 12px;
-    padding: 22px 28px;
-    color: white;
-    background: linear-gradient(to bottom, #000000, #83a1f3);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.dor-section h2 {
-    text-align: center;
-    color: #ff625d;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin: 0 0 18px;
-}
-
-.dor-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.dor-item {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    padding: 8px 24px;
-    min-height: 80px;
-    border-right: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-.dor-item:last-child {
-    border-right: none;
-}
-
-.icon {
-    color: #ff554f;
-    font-size: 32px;
-}
-
-.dor-item h3 {
-    margin: 0 0 8px;
-    font-size: 16px;
-}
-
-.dor-item p {
-    margin: 0;
-    color: #b8c0ca;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-@media (max-width: 900px) {
-    .dor-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .dor-item {
-        border-right: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.18);
-    }
-
-    .dor-item:last-child {
-        border-bottom: none;
-    }
+.h1techalerta {
+  margin-left: auto;
+  font-size: 22px;
+  white-space: nowrap;
 }
 
 .btn-index2 {
-    background: #b8c0ca;
-    color: white;
-    border: #0a1422;
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.2s;
-    height: 32px;
-    padding: 0 18px;
-    display: flex;
-    align-items: center;
-    margin-left: 12px;
+  background: #dfe6f2;
+  border: 1px solid #666;
+  padding: 8px 16px;
+  font-size: 15px;
+  cursor: pointer;
 }
 
-.btn-index2:hover {
-    background: #283455;
+.btn-index2 a {
+  text-decoration: none;
+  color: #111;
 }
 
-.h1techalerta   {
-    font-size: 30px;
-    margin: 0;
-    margin-left: auto;
-    white-space: nowrap;
+.secao {
+  background: #edf2ff;
+  text-align: center;
+  padding: 20px 14px;
+  border-bottom: 1px solid #999;
+}
+
+.h1logis {
+  margin: 0 0 14px;
+  font-size: 30px;
+}
+
+.secao img {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid #666;
+}
+
+.dor-section {
+  background: #0a1422;
+  color: #fff;
+  padding: 20px;
+}
+
+.dor-section h2 {
+  margin: 0 0 18px;
+  text-align: center;
+  color: #ff6d6d;
+  font-size: 18px;
+}
+
+.dor-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.dor-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 100px;
+  padding: 12px;
+  background: #111d2d;
+  border: 1px solid #3d4f68;
+}
+
+.icon {
+  font-size: 28px;
+  color: #ff6d6d;
+}
+
+.dor-item h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.dor-item p {
+  margin: 0;
+  color: #dfe6f2;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  header {
+    flex-wrap: wrap;
+  }
+
+  .h1techalerta {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .dor-grid {
+    grid-template-columns: 1fr;
+  }
 }

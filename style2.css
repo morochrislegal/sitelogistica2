@@ -72,6 +72,50 @@ color: rgb(30, 68, 151);;
     display: flex;
 }
 
+.main {
+    flex: 1;
+}
+
+.main p strong {
+    display: block;
+    margin: 14px 0 10px;
+    color: rgb(30, 68, 151);
+    font-size: 1.1rem;
+}
+
+.tabela-alertas {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(30, 68, 151, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.tabela-alertas th,
+.tabela-alertas td {
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid #e8edf8;
+    font-size: 14px;
+}
+
+.tabela-alertas thead th {
+    background: #edf3ff;
+    color: rgb(30, 68, 151);
+    font-weight: 700;
+}
+
+.tabela-alertas tbody tr:hover {
+    background: #f5f8ff;
+}
+
+.tabela-alertas td:last-child {
+    color: rgb(30, 68, 151);
+    font-weight: 700;
+}
+
 .pie-chart {
       width: 200px;
       height: 200px;

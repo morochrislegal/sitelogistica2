@@ -28,12 +28,12 @@
         <div class="a1">
             <nav class="esquerda">
                 <ul class="lista">
-                    <li><button class="botao"><a href="painel.html">Painel</a></button></li>
-                    <li><button class="botao"><a href="alerta.html">Alertas</a></button></li>
-                    <li><button class="botao"><a href="estoque.html">Estoque</a></button></li>
-                    <li><button class="botao"><a href="producao.html">Produção</a></button></li>
-                    <li><button class="botao"><a href="relatorios.html">Relatórios</a></button></li>
-                    <li><button class="botao"><a href="config.html">Configuração</a></button></li>
+                    <li><button class="botao"><a href="painel/painel.html">Painel</a></button></li>
+                    <li><button class="botao"><a href="alerta/alerta.html">Alertas</a></button></li>
+                    <li><button class="botao"><a href="estoque/estoque.html">Estoque</a></button></li>
+                    <li><button class="botao"><a href="producao/producao.html">Produção</a></button></li>
+                    <li><button class="botao"><a href="relatorios/relatorios.html">Relatórios</a></button></li>
+                    <li><button class="botao"><a href="config/config.html">Configuração</a></button></li>
                 </ul>
             </nav>
             <section class="main">
@@ -44,34 +44,38 @@
                     <div class="c3"><p>Pedidos pendentes</p><p>15</p></div>
                 </div>
                 <p><strong>Alertas em tempo real</strong></p>
-                <table>
-                    <tr class="listaheader">
-                        <th>ID</th>
-                        <th>Tipo</th>
-                        <th>Descrição</th>
-                        <th>Local</th>
-                        <th>Gravidade</th>
-                        <th>Data/Hora</th>
-                        <th>Ação</th>
-                    </tr>
-                    <tr>
-                        <td>9871</td>
-                        <td>Falta de material</td>
-                        <td>Aço gay</td>
-                        <td>Armazém Central</td>
-                        <td>Urgente</td>
-                        <td>12:51</td>
-                        <td>Visualizar</td>
-                    </tr>
-                    <tr>
-                        <td>9871</td>
-                        <td>Falta de material</td>
-                        <td>Aço gay</td>
-                        <td>Armazém Central</td>
-                        <td>Urgente</td>
-                        <td>12:51</td>
-                        <td>Visualizar</td>
-                    </tr>
+                <table class="tabela-alertas">
+                    <thead>
+                        <tr class="listaheader">
+                            <th>ID</th>
+                            <th>Tipo</th>
+                            <th>Descrição</th>
+                            <th>Local</th>
+                            <th>Gravidade</th>
+                            <th>Data/Hora</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>9871</td>
+                            <td>Falta de material</td>
+                            <td>Aço gay</td>
+                            <td>Armazém Central</td>
+                            <td>Urgente</td>
+                            <td>12:51</td>
+                            <td>Visualizar</td>
+                        </tr>
+                        <tr>
+                            <td>9871</td>
+                            <td>Falta de material</td>
+                            <td>Madeira Bixa</td>
+                            <td>Armazém Central</td>
+                            <td>Exige Atenção</td>
+                            <td>12:67</td>
+                            <td>Visualizar</td>
+                        </tr>
+                    </tbody>
                 </table>
             </section>
             <nav class="direita">
