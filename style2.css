@@ -3,14 +3,18 @@
 }
 
 .cabecalho {
-    padding: 5px;
+    padding: 5px 15px;
     height: auto;
-    background-color: rgb(30, 68, 151);
+    background-color: rgb(107, 152, 248);
     border-radius: 2px;
-    border-color: rgb(30, 68, 151);;
-    border-bottom: 2px solid rgb(30, 68, 151);;
+    border-color: rgb(109, 155, 255);;
+    border-bottom: 2px solid rgb(100, 149, 255);;
     border-width: 2px;
     width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 p {
@@ -80,17 +84,22 @@ color: rgb(30, 68, 151);;
 }
 
 .logo2 {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .perfil {
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-left: auto;
 }
 
 .logo {
     text-align: center;
+    font-size: 30px;
 }
 
 ul {
