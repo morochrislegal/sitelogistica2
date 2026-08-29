@@ -2,28 +2,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    margin: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-}
-
-p {
-    margin: 0;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-}
-
 .cabecalho {
     padding: 5px 15px;
     height: auto;
     background-color: rgb(107, 152, 248);
     border-radius: 2px;
-    border-color: rgb(109, 155, 255);
-    border-bottom: 2px solid rgb(100, 149, 255);
+    border-color: rgb(109, 155, 255);;
+    border-bottom: 2px solid rgb(100, 149, 255);;
     border-width: 2px;
     width: auto;
     display: flex;
@@ -32,14 +17,18 @@ p {
     gap: 20px;
 }
 
+p {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
 .a1 {
     font-size: 25px;
-    display: flex;
 }
 
 .lista {
     cursor: pointer;
-    list-style: none;
 }
 
 .botao {
@@ -51,24 +40,16 @@ td {
     padding-right: 10px;
 }
 
-.direita,
-.main,
-.esquerda {
+.direita, .main, .esquerda {
     padding: 10px;
-    color: rgb(30, 68, 151);
+color: rgb(30, 68, 151);;
 }
 
-.a1,
-.cabecalho,
-.logo2,
-.perfil,
-.pc {
+.a1, .cabecalho, .logo2, .perfil, .pc {
     display: flex;
 }
 
-.c1,
-.c2,
-.c3 {
+.c1, .c2, .c3 {
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
@@ -136,22 +117,24 @@ td {
 }
 
 .pie-chart {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: conic-gradient(
-        #ff6384 0deg 108deg,
-        #36a2eb 108deg 288deg,
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #ff6384 0deg 108deg, 
+        #36a2eb 108deg 288deg, 
         #ffce56 288deg 360deg
-    );
+      );
 }
 
 .logo2 {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .perfil {
+    display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 10px;
@@ -163,21 +146,10 @@ td {
     font-size: 30px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .letra {
     color: rgb(21, 0, 247);
-}
-
-.voltar a {
-    color: black;
-    text-decoration: none;
-}
-
-textarea {
-    resize: none;
-}
-
-.legenda {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
 }
